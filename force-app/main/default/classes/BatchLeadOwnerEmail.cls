@@ -14,6 +14,7 @@ ile iletisime gecildiginde tetiklenecek bir record trigger flow olustur. otomati
     
     public BatchLeadOwnerEmail(Id ldId){
             leadId = ldId;
+            //Brancdaki degisimi gormek icin yazildi
     }
         
     public Database.QueryLocator start(Database.BatchableContext BC) {
